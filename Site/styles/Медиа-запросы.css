@@ -1,0 +1,34 @@
+@page :first 
+{
+    margin: 1cm; 
+}
+@page :left
+{
+    margin: 1cm 3cm 1cm 1.5cm;
+}
+@page :right 
+{
+    margin: 1cm 3cm 1cm 1.5cm;
+}
+@page
+{
+	size: a4;
+}
+@page {
+	size: A4;
+}
+@media projection{
+	.container
+	{
+		outline: none;
+	}
+}
+@media print {
+	body {
+		background-color: white;
+	}
+	.container
+	{
+		outline: none;
+	}
+}

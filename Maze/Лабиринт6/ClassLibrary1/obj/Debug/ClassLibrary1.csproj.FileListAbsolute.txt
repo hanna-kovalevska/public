@@ -1,0 +1,18 @@
+C:\2 курс\С_шарп\3 лаба\3 лаба\Лабиринт\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\2 курс\С_шарп\3 лаба\3 лаба\Лабиринт\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\2 курс\С_шарп\3 лаба\3 лаба\Лабиринт\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\2 курс\С_шарп\3 лаба\3 лаба\Лабиринт\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\2 курс\С_шарп\3 лаба\3 лаба\Лабиринт\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\2 курс\С_шарп\3 лаба\3 лаба\Лабиринт\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Mi book\Desktop\3 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\Mi book\Desktop\3 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Mi book\Desktop\3 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Mi book\Desktop\3 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Mi book\Desktop\3 лаба\Лабиринт6\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Mi book\Desktop\3 лаба\Лабиринт6\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mi book\Desktop\4 лаба\Лабиринт6\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Mi book\Desktop\4 лаба\Лабиринт6\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mi book\Desktop\4 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\Mi book\Desktop\4 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Mi book\Desktop\4 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Mi book\Desktop\4 лаба\Лабиринт6\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

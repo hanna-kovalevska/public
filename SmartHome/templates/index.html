@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Контроль домом (Бригада №4)</title>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+	<script src="../static/Chart.js/dist/Chart.min.js"></script>
+   <!-- <link href="index.css" type="text/css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='index.css', v=1)}}">-->
+	<style>
+		body {
+           background-blend-mode: multiply;
+           background-image: url(../static/images/krasivii-dom.jpg);
+           background-attachment: fixed;
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-color: rgba(1, 52, 32, 0.5);
+        }
+
+.name{
+ color: white;
+ width: 35%;
+ background-color: rgba(1, 52, 32, 0.4);
+ position: relative;
+ top: -1px;
+ left: 32%;
+ border-radius: 25px;
+ }
+
+h1{
+color: white;
+background-color: rgba(1, 52, 32, 0.5);
+ border-radius: 25px;
+}
+
+.wrapper{
+width: 55%;
+position: relative;
+padding: 5px;
+margin: auto;
+top: 3px;
+}
+
+
+
+.block1{
+background: white;
+width: 42%;
+position: relative;
+float:left;
+padding: 5px;
+margin: 10px;
+opacity: 0.75;
+border-radius: 15px;
+}
+
+.block2{
+background: white;
+width: 42%;
+position: relative;
+float:right;
+padding: 5px;
+margin: 10px;
+opacity: 0.75;
+border-radius: 15px;
+}
+
+.submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 3px 1px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.submit:hover {background-color: rgba(1, 52, 32, 0.5); color: white;}
+
+input[type='range'] {
+        overflow: hidden;
+        width: 150px;
+        height: 15px;
+        margin: 10px;
+        -webkit-appearance: none;
+        background-color: #919B69;
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 15px;
+        -webkit-appearance: none;
+        color: #13bba4;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 10px;
+        -webkit-appearance: none;
+        height: 17px;
+        cursor: ew-resize;
+        background: #013420;
+        box-shadow: -80px 0 0 80px #24D5E9;
+    }
+	</style>
+</head>
+<body>
+	<p>
+	    <h1 align="center">Управление умным домом</h1>
+	    <p align="center"><img src="static/images/house.png" width="580" height="255" alt="Умный дом фото"></p>
+	    
+		<p align="center" class="name">ИТШИ-19-3 (Деревянко, Ковалевская, Сизонец, Соколовская)</p>
+	</p>
+	<p>
+	<div class = "wrapper">
+	    <div class = "block1">
+	    <form name="Form1" action="" method="post">
+	        <div align="center"><h1>Комната 1</h1></div>
+	        <p></p>
+	        <p align="center" style="text-decoration: underline;">Свет в комнате 1 {{ light1_1 }}</p>
+	        <div align="center"><font size="3">Свет в комнате 1:    </font><input id="Btn1" name="But1" type="submit" class="submit" value={{ light1 }}></div>
+	        <p align="center" style="text-decoration: underline;">Яркость освещения в комнате 1 = {{ lightnes1 }}</p>
+	        <p align="center" id="t_1" style="text-decoration: underline;">Температура = {{ temper1 }}</p>
+	        <p align="center">Яркость: <input type="range" min="0" max="100" step="1" value={{ lightnes1 }} name="L1"><input name="Lig1" type="submit" value=ОК></p>
+
+	        <p align="center" id="heat">Подогрев: {{ heating }}</p>
+	        <p id="min_threshold" align="center" >Нижний порог: {{ n1 }}</p>
+		    <p id="max_threshold" align="center">Верхний порог: {{ n2 }}</p>
+
+		    <p>
+				<label>Введите нижний порог: </label>
+				<input  type="text" name="th1">
+			</p>
+			<p>
+		 		<label>Введите верхний порог: </label>
+		 		<input  type="text" name="th2">
+			</p>
+			<p>
+				<input name="thresholds" value="OK" type="submit">
+			</p>
+	        
+	    </form>
+	    </div>
+	    
+	    <div class = "block2">
+	    <form name="Form1" action="" method="post">
+	        <div align="center"><h1>Комната 2</h1></div>
+	        <p></p>
+	        <p align="center" style="text-decoration: underline;">Свет в комнате 2 {{ light2_2 }}</p>
+	        <div align="center"><font size="3">Свет в комнате 2:    </font><input name="But2" type="submit" class="submit" value={{ light2 }}></div>
+	        <p align="center" style="text-decoration: underline;">Яркость освещения в комнате 2 = {{ lightnes2 }}</p>
+	        <p align="center" id="t_2" style="text-decoration: underline;">Температура = {{ temper2 }}</p>
+	        <p align="center">Яркость: <input type="range" min="0" max="100" step="1" value={{ lightnes2 }} name="L2"><input name="Lig2" type="submit" value=ОК></p>
+	    </form>
+	    </div>
+
+
+	</div>
+	</p>
+
+	<div id="Grafik" style="width:400px; height:400px">
+		<canvas id="myChart" style="background-color:white;"  ></canvas>
+	</div>
+    <script type="text/javascript">
+
+        function sleep(ms) {return new Promise(resolve => setTimeout(resolve, ms));}
+        function t_update(massiv){
+            var mass = JSON.parse(massiv.responseText)
+            document.getElementById('t_1').innerHTML = "Температура = " + mass[0];
+            document.getElementById('t_2').innerHTML = "Температура = " + mass[1];
+            document.getElementById('heat').innerHTML = "Подогрев = " + mass[2];
+            document.getElementById('min_threshold').innerHTML = "Нижний порог: " + mass[3];
+            document.getElementById('max_threshold').innerHTML = "Верхний порог: " + mass[4];
+        }
+
+        function graf_update(massiv){
+			var mass = JSON.parse(massiv.responseText)
+
+			chart.data.datasets[0].data = mass[0];
+			chart.data.datasets[1].data = mass[1];
+			chart.data.datasets[2].data = mass[2];
+			chart.data.labels = mass[3];
+			chart.update();
+		}
+
+        async function reguest(){
+            while (true){
+                let zapros = new XMLHttpRequest();
+                zapros.open('GET', '/temperature');
+                zapros.send();
+                zapros.onload = () => {t_update(zapros)}
+
+                let zapros_graf = new XMLHttpRequest();
+				zapros_graf.open('GET', '/plot');
+				zapros_graf.send();
+				zapros_graf.onload = () => {graf_update(zapros_graf)}
+
+                await sleep(1000);
+            }
+        }
+        window.onload = reguest();
+
+        chart = new Chart(document.getElementById("myChart"),{
+		"type": "line",
+		"data": {"labels":[],
+		"datasets":[{"label":"Температура",
+			"data":[],
+			"fill":true,
+			"borderColor":"green",
+			"lineTension":0.1},
+
+			{"label":"Минимальная",
+			"data":[],
+			"fill":false,
+			"borderColor":"blue",
+			"lineTension":0.1},
+	
+			{"label":"Максимальная",
+			"data":[],
+			"fill":false,
+			"borderColor":"red",
+			"lineTension":0.1}
+			]},
+		"options": { animation: false }
+		});
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+a
+{
+	padding-left: 40px;
+  padding-right: 30px;
+  font-family: "Times New Roman", serif;
+  font-size: 110%;
+  font-weight: 300;
+  text-align: justify;
+
+}
+a:link 
+{
+	color: red;
+}
+a:visited {
+	color: #0B782E;
+}
+a:active
+{
+	color: red;
+}
+
+a:not(.menu)
+{
+	background: none;
+	text-decoration: none;
+	padding: 0px;
+}

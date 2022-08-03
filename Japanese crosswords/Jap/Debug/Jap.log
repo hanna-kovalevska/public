@@ -1,0 +1,14 @@
+﻿  Jap.cpp
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(612,19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(612,16): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(732,77): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(732,49): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(799,41): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(799,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(804,42): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(804,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(821,41): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(821,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(826,43): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\1 course\OOP\Japan\Jap\Jap\Jap.cpp(826,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Jap.vcxproj -> C:\1 course\OOP\Japan\Jap\Debug\Jap.exe

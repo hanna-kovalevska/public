@@ -1,0 +1,30 @@
+H1 
+{
+  color: #2DA71F;
+  font-size: 300%;
+  text-align: center;
+  font-family: "Gabriola", handwritten;
+}
+H3 
+{
+  color: #311989;
+  font-size: 150%;
+  text-align: center;
+  font-style: oblique;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.name
+{
+	color: #0F7F2F;
+	font-style: normal;
+}
+#fi
+{
+  color: #0FA791;
+  font-style: normal;
+}
+.first h3
+{
+  color: #0FA791;
+    font-style: normal;
+}
